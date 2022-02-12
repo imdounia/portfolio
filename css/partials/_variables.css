@@ -1,0 +1,15 @@
+html, body{
+    margin : 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/*CSS variables*/
+:root{
+    --first-color : #3E4E50;
+    --second-color: #FACFAD;
+
+    --quicksand : 'Quicksand', sans-serif;
+    --righteous : 'Righteous';
+}

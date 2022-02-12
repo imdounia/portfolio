@@ -1,0 +1,105 @@
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+@import url(./fonts.css);
+
+
+/*intro-area*/
+.intro-area{
+    margin-top: 12rem;
+}
+.intro-area > div:first-of-type{
+    background: #F7EBE8;
+    border-radius: 25px 25px 0 0;
+    border: 3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.intro-area > div:last-of-type{
+    background: #FFA987;
+    border-radius: 0 0 25px 25px;
+    border: 3px solid black;
+    border-top: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.intro-area > div:first-of-type code{
+    color: #E54B4B;
+    font-weight: bolder;
+    font-size: large;
+}
+.intro-area .icon{
+    background: #E54B4B;
+    color: #F7EBE8;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid black;
+}
+.intro-area img{
+    border-radius: 50%;
+    width: 20rem;
+    height: auto;
+    border: solid 20px #E54B4B;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.intro-area a{
+    text-decoration: none;
+    color: black;
+}
+.intro-area span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+.intro-area button i{
+    color: #E54B4B;
+}
+
+
+/*about-me area*/
+.about-me-area{
+    padding-top: 8rem;
+}
+.about-me-area .curved{
+    background-color: #F7EBE8;
+}
+.about-me-area .curved.upper{
+    background: linear-gradient(
+        to right,
+        var(--first-color) 0%,
+        var(--first-color) 40%,
+        var(--second-color) 40%,
+        var(--second-color) 100%
+    );
+}
+.about-me-area .curved svg{
+    display: block;
+}
+.about-me-area .content .title-2:first-of-type{
+    color: var(--second-color);
+}
+.about-me-area .content .title-2:first-of-type:after{
+    background-color: var(--first-color);
+}
+.about-me-area .content:last-of-type .title-2{
+    margin-top: 3.8rem;
+    color: var(--first-color);
+}
+.about-me-area .content:last-of-type .title-2::after{
+    background-color: var(--second-color);
+}
+.about-me-area .content{
+    display: flex;
+    flex-direction: column;
+}
+.about-me-area .content:last-of-type{
+    justify-content: right;
+    align-items: flex-end;
+    text-align: right;
+}

@@ -14,9 +14,10 @@
         var(--second-color) 100%
     );
     width: 100%;
+    height: 75vh;
 }
 .intro-area .wrapper > div:first-of-type{
-    background: #F7EBE8;
+    background: var(--white-color);
     border-radius: 25px 25px 0 0;
     border: 3px solid black;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
@@ -24,18 +25,19 @@
 .intro-area .wrapper > div:last-of-type{
     background: #FFA987;
     border-radius: 0 0 25px 25px;
-    border: 3px solid black;
+    border: 3px solid #000000;
     border-top: 0;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    padding: 3vh 0;
 }
 .intro-area > div:first-of-type code{
-    color: #E54B4B;
+    color: var(--pink-color);
     font-weight: bolder;
     font-size: large;
 }
 .intro-area .icon{
-    background: #E54B4B;
-    color: #F7EBE8;
+    background: var(--pink-color);
+    color: var(--white-color);
     width: 40px;
     height: 40px;
     display: flex;
@@ -53,7 +55,7 @@
 }
 .intro-area a{
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 .intro-area span {
     border-right: .05em solid;
@@ -70,28 +72,23 @@
 /*about-me area*/
 .about-me-area{
     padding-top: 8rem;
-    background: linear-gradient(
-        to right,
-        var(--first-color) 0%,
-        var(--first-color) 40%,
-        var(--second-color) 40%,
-        var(--second-color) 100%
-    );
+    background-color: var(--white-color);
+    height: 100vh;
 }
-.about-me-area .curved{
-    background-color: #F7EBE8;
+.curved{
+    background-color: var(--white-color);
 }
-.about-me-area .curved.upper{
-    background: linear-gradient(
-        to right,
-        var(--first-color) 0%,
-        var(--first-color) 40%,
-        var(--second-color) 40%,
-        var(--second-color) 100%
-    );
-}
-.about-me-area .curved svg{
+.curved svg{
     display: block;
+}
+.curved.upper{
+    background: linear-gradient(
+        to right,
+        var(--first-color) 0%,
+        var(--first-color) 40%,
+        var(--second-color) 40%,
+        var(--second-color) 100%
+    );
 }
 .about-me-area .content .title-2:first-of-type{
     color: var(--second-color);
@@ -109,6 +106,7 @@
 .about-me-area .content{
     display: flex;
     flex-direction: column;
+    margin: 15vh 0;
 }
 .about-me-area .content:last-of-type{
     justify-content: right;
@@ -119,7 +117,8 @@
 
 /*skills-area*/
 .skills-area{
-    padding-top: 8rem;
+    padding: 8rem 0;
+    height: 50vh;
     background: linear-gradient(
         to right,
         var(--second-color) 0%,
@@ -135,19 +134,20 @@
     background-color: var(--first-color);
 }
 .skills-area .text{
-    color: #F7EBE8;
+    color: var(--white-color);
 }
 .skills-area .btn_cta{
     font-size: 28px;
 }
 .skills-area .row:first-of-type{
-    padding: 3.8rem 0;
+    padding: 10vh 0;
 }
 
 
 /*projects-area*/
 .projects-area{
-    padding-top: 8rem;
+    padding: 32rem 0;
+    height: 100vh;
     background: linear-gradient(
         to right,
         var(--second-color) 0%,
@@ -156,9 +156,61 @@
         var(--first-color) 100%
     );
 }
-.projects-area .div:first-of-type{
+.projects-area .wrapper .con{
     display: flex;
     justify-content: right;
     align-items: flex-end;
-    text-align: right;
+}
+.projects-area .row{
+    padding: 3.8rem 0;
+}
+.projects-area .title-2{
+    color: var(--first-color);
+}
+.projects-area .title-2::after{
+    background-color: var(--second-color);
+}
+.projects-area .project-screen > div:first-of-type{
+    background: var(--white-color);
+    border-radius: 25px 25px 0 0;
+    border: 3px solid #000000;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.projects-area .project-screen > div:last-of-type{
+    border-radius: 0 0 25px 25px;
+    border: 3px solid #000000;
+    border-top: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.projects-area .project-screen .carousel{
+    overflow: hidden;
+}
+.projects-area .project-screen > div:last-of-type img{
+    border-radius: 0 0 25px 25px;
+}
+.projects-area .project-screen > div:first-of-type code{
+    color: var(--pink-color);
+    font-weight: bolder;
+    font-size: large;
+}
+.projects-area .project-screen .icon{
+    background: var(--pink-color);
+    color: var(--white-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid #000000;
+}
+.projects-area .project-intro .btn_cta{
+    font-size: 28px;
+}
+.projects-area .project-intro .text, .project-intro .title i{
+    color: var(--white-color);
+}
+.projects-area .project-intro .title{
+    color: #FFA987;
 }

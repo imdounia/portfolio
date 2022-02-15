@@ -9,6 +9,8 @@ html, body{
 :root{
     --first-color : #3E4E50;
     --second-color: #FACFAD;
+    --white-color : #F7EBE8;
+    --pink-color: #E54B4B;
 
     --quicksand : 'Quicksand', sans-serif;
     --righteous : 'Righteous';

@@ -85,6 +85,12 @@ body{
   color: #000000;
 }
 
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #00000038;
+    border-radius: 50%;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 5px;

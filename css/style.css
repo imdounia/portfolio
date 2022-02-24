@@ -30,22 +30,6 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     padding: 3vh 0;
 }
-.intro-area > div:first-of-type code{
-    color: var(--pink-color);
-    font-weight: bolder;
-    font-size: large;
-}
-.intro-area .icon{
-    background: var(--pink-color);
-    color: var(--white-color);
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border: 3px solid black;
-}
 .intro-area img{
     border-radius: 50%;
     width: 20rem;
@@ -81,7 +65,7 @@
 .curved svg{
     display: block;
 }
-.curved.upper{
+.curved:first-of-type.upper{
     background: linear-gradient(
         to right,
         var(--first-color) 0%,
@@ -147,7 +131,6 @@
 /*projects-area*/
 .projects-area{
     padding: 32rem 0;
-    height: 100vh;
     background: linear-gradient(
         to right,
         var(--second-color) 0%,
@@ -188,23 +171,6 @@
 .projects-area .project-screen > div:last-of-type img{
     border-radius: 0 0 25px 25px;
 }
-.projects-area .project-screen > div:first-of-type code{
-    color: var(--pink-color);
-    font-weight: bolder;
-    font-size: large;
-}
-.projects-area .project-screen .icon{
-    background: var(--pink-color);
-    color: var(--white-color);
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border: 3px solid #000000;
-}
 .projects-area .project-intro .btn_cta{
     font-size: 28px;
 }
@@ -213,4 +179,33 @@
 }
 .projects-area .project-intro .title{
     color: #FFA987;
+}
+
+
+/*contact-area*/
+.curved:last-of-type.upper{
+    background: linear-gradient(
+        to right,
+        var(--second-color) 0%,
+        var(--second-color) 40%,
+        var(--first-color) 40%,
+        var(--first-color) 100%
+    );
+}
+.contact-area{
+    background-color: var(--white-color);
+}
+.contact-area .wrapper > div:first-of-type{
+    background: var(--white-color);
+    border-radius: 25px 25px 0 0;
+    border: 3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.contact-area .wrapper > div:last-of-type{
+    background: #FFA987;
+    border-radius: 0 0 25px 25px;
+    border: 3px solid #000000;
+    border-top: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    padding: 3vh 0;
 }

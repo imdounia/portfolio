@@ -91,6 +91,25 @@ body{
     border-radius: 50%;
 }
 
+/*elements of the message box*/
+.icon{
+    background: var(--pink-color);
+    color: var(--white-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+div code{
+    color: var(--pink-color);
+    font-weight: bolder;
+    font-size: large;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 5px;

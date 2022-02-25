@@ -28,7 +28,6 @@
     border: 3px solid #000000;
     border-top: 0;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-    padding: 3vh 0;
 }
 .intro-area img{
     border-radius: 50%;
@@ -195,6 +194,9 @@
 .contact-area{
     background-color: var(--white-color);
 }
+.contact-area .wrapper{
+    padding: 8rem 0;
+}
 .contact-area .wrapper > div:first-of-type{
     background: var(--white-color);
     border-radius: 25px 25px 0 0;
@@ -208,4 +210,21 @@
     border-top: 0;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     padding: 3vh 0;
+}
+.contact-area input, .contact-area textarea{
+    padding: 15px;
+    border-radius: 20px;
+}
+.contact-area input:focus, .contact-area textarea:focus{
+    border:solid 3px #353535;
+    outline: none;
+    box-shadow: none; 
+}
+
+
+
+/*footer*/
+footer{
+    background-color: var(--white-color);
+    padding: 1rem 0;
 }

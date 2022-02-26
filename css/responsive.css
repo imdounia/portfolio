@@ -13,18 +13,25 @@
     }
 
 
-    /*about me area*/
+    /*skills anf projects areas */
+    .projects-area .project-intro, .projects-area .project-screen, .skills-area div[class*='col-']{
+        width: 100%;
+    }
+    .skills-area .btn_cta, .projects-area .project-intro .btn_cta{
+        font-size: 15px;
+    }
         
 
     /*gobal*/
         .row{
             flex-direction: column;
+            width: 100%;
         }
         .wrapper{
             width: 90%;
         }
         .btn_cta{
-            font-size: 10px;
+            font-size: 15px;
         }
         .title, .title-2{
             font-size: 25px;

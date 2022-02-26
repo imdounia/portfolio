@@ -1,0 +1,46 @@
+/* if the viewport is equal to 600px or less than that */ 
+@media only screen and (max-width: 600px){
+    /*intro area*/
+    .intro-area .wrapper > div:last-of-type{
+        text-align: center;
+    }
+    .intro-area .wrapper > div:last-of-type .title{
+        padding-top: 1.5rem;
+        height: 4rem;
+    }
+    .intro-area .wrapper > div:last-of-type .hstack{
+        text-align: center;
+    }
+
+
+    /*about me area*/
+        
+
+    /*gobal*/
+        .row{
+            flex-direction: column;
+        }
+        .wrapper{
+            width: 90%;
+        }
+        .btn_cta{
+            font-size: 10px;
+        }
+        .title, .title-2{
+            font-size: 25px;
+        }
+        .text{
+            font-size: 15px;
+            line-height: 1.8rem;
+        }
+        
+        /*elements of the message box*/
+        .icon{
+            width: 20px;
+            height: 20px;
+            font-size: smaller;
+        }
+        div code{
+            font-size: small;
+        }
+}

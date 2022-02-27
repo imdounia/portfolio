@@ -49,11 +49,27 @@
     }
 
 
-    /*skills anf projects areas */
+    /*skills and projects areas */
     .projects-area .project-intro, .projects-area .project-screen, .skills-area div[class*='col-']{
         width: 100%;
     }
     .skills-area .btn_cta, .projects-area .project-intro .btn_cta{
         font-size: 15px;
+    }
+    .skills-area .btn_cta{
+        margin-bottom: 1rem;
+    }
+    .projects-area .project-intro{
+        padding-left: 1rem;
+    }
+    .projects-area .project-intro .title{
+        padding-top: 20px;
+    }
+    .projects-area .project-intro .text{
+        padding: 0.8rem 0;
+    }
+
+    .contact-area .wrapper > div:first-of-type{
+        padding: 5rem;
     }
 }

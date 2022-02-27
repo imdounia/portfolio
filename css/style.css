@@ -167,11 +167,17 @@
 .projects-area .project-screen > div:last-of-type img{
     border-radius: 0 0 25px 25px;
 }
+.projects-area .project-intro{
+    padding-left: 3rem;
+}
 .projects-area .project-intro .btn_cta{
     font-size: 28px;
 }
 .projects-area .project-intro .text, .project-intro .title i{
     color: var(--white-color);
+}
+.projects-area .project-intro .text{
+    padding: 2rem 0;
 }
 .projects-area .project-intro .title{
     color: #FFA987;
@@ -204,7 +210,6 @@
     border: 3px solid #000000;
     border-top: 0;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-    padding: 3vh 0;
 }
 .contact-area input, .contact-area textarea{
     padding: 15px;

@@ -12,7 +12,9 @@ body{
     );
     overflow-x: hidden;
 }
-body>div {overflow-x:hidden;}
+body>div {
+    overflow-x:hidden;
+}
 .wrapper{
     width: 75%;
     margin: 0 auto;

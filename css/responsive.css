@@ -1,6 +1,42 @@
 /* if the viewport is equal to 600px or less than that */ 
 @media only screen and (max-width: 600px){
+    /*gobal*/
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .wrapper{
+        width: 90%;
+    }
+    .btn_cta{
+        font-size: 15px;
+    }
+    .title, .title-2{
+        font-size: 25px;
+    }
+    .text{
+        font-size: 15px;
+        line-height: 1.8rem;
+    }
+    
+    /*elements of the message box*/
+    .icon{
+        width: 20px;
+        height: 20px;
+        font-size: smaller;
+    }
+    div code{
+        font-size: small;
+    }
+    .intro-area .wrapper > div:first-of-type, .intro-area .wrapper > div:last-of-type, .contact-area .wrapper > div:first-of-type, .contact-area .wrapper > div:last-of-type, .project-screen > div:first-of-type{
+        padding: 8rem 0;
+    }
+
+
     /*intro area*/
+    .intro-area{
+        height: 120vh;
+    }
     .intro-area .wrapper > div:last-of-type{
         text-align: center;
     }
@@ -9,7 +45,7 @@
         height: 4rem;
     }
     .intro-area .wrapper > div:last-of-type .hstack{
-        text-align: center;
+        flex-direction: column;
     }
 
 
@@ -20,34 +56,4 @@
     .skills-area .btn_cta, .projects-area .project-intro .btn_cta{
         font-size: 15px;
     }
-        
-
-    /*gobal*/
-        .row{
-            flex-direction: column;
-            width: 100%;
-        }
-        .wrapper{
-            width: 90%;
-        }
-        .btn_cta{
-            font-size: 15px;
-        }
-        .title, .title-2{
-            font-size: 25px;
-        }
-        .text{
-            font-size: 15px;
-            line-height: 1.8rem;
-        }
-        
-        /*elements of the message box*/
-        .icon{
-            width: 20px;
-            height: 20px;
-            font-size: smaller;
-        }
-        div code{
-            font-size: small;
-        }
 }

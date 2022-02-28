@@ -81,12 +81,16 @@
     .intro-area .wrapper > div:last-of-type .hstack{
         justify-content: center;
     }
-
+    .intro-area .wrapper > div:last-of-type .title{
+            padding-top: 1.5rem;
+        }
+        
 
     /*projects area*/
     .projects-area .project-intro, .projects-area .project-screen{
         width: 100%;
     }
+    
     .projects-area .row{
         flex-direction: column;
         width: 100%;

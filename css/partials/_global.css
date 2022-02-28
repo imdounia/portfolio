@@ -23,13 +23,13 @@ body>div {
     color: var(--pink-color);
 }
 .title{
-    font-size: 50px;
+    font-size: 40px;
     font-family: var(--righteous);
     margin-bottom: 20px;
     letter-spacing: 3px;
 }
 .title-2{
-    font-size: 50px;
+    font-size: 40px;
     font-family: var(--righteous);
     margin-bottom: 20px;
     letter-spacing: 3px;
@@ -52,7 +52,7 @@ body>div {
     left: 7px;
 }
 .text{
-    font-size: 28px;
+    font-size: 23px;
     font-family: var(--quicksand);
     line-height: 3rem;
 }

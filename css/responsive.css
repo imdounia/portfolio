@@ -68,8 +68,30 @@
     .projects-area .project-intro .text{
         padding: 0.8rem 0;
     }
+}
 
-    .contact-area .wrapper > div:first-of-type{
-        padding: 5rem;
+
+
+/* if the viewport is equal to 992px or less than that */ 
+@media screen and (max-width: 992px) {
+    /*intro-area*/
+    .intro-area .wrapper > div:last-of-type{
+        text-align: center;
+    }
+    .intro-area .wrapper > div:last-of-type .hstack{
+        justify-content: center;
+    }
+
+
+    /*projects area*/
+    .projects-area .project-intro, .projects-area .project-screen{
+        width: 100%;
+    }
+    .projects-area .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .projects-area .project-intro .title{
+        padding-top: 20px;
     }
 }
